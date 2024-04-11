@@ -16,8 +16,8 @@ public class sumOfMultipleNumbers {
         // where i = number
         // trying to loop through the numbers in the array. i.e numbers in the array
         for (int num : array) {
-
-            sum += num;
+            sum = num + sum;
+//            sum += num; // same as line 19.
         }
         return sum;
         }

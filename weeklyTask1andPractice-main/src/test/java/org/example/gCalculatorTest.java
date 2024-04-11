@@ -33,6 +33,15 @@ class gCalculatorTest {
         assertEquals('F',gCalculator.calculatorGrade(20));
         assertEquals('F',gCalculator.calculatorGrade(40));
     }
-
+//    @Test
+//    void negativeShouldReturnIllegalArgumentException(){
+//        var gCalculator = new gCalculator();
+////    assertEquals('F',gCalculator.calculatorGrade(20));
+////    assertEquals('F',gCalculator.calculatorGrade(40));
+//        assertThrows(IllegalArgumentException.class, () -> {
+//            gCalculator.calculatorGrade(-1);
+//        });
+//
+//    }
 
 }
