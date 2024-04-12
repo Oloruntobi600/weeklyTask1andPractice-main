@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class sumOfMultipleNumbersTest {
     @Test
     void ifLogicSumOfMultipleIsCorrect() {
+        var sumOfMultipleNumbers = new sumOfMultipleNumbers();
         int[] array = {10,10,10,10,10};
         assertEquals(50, sumOfMultipleNumbers.sumOfMultiple(array));
 
